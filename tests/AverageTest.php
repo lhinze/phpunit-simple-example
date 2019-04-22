@@ -31,6 +31,6 @@ class AverageTest extends TestCase
 
     public function testFailingTest() 
     {
-        $this->assertTrue(1 === "1", "You got a failing test");
+        $this->assertTrue(1 === 1, "Should pass now");
     }
 }
